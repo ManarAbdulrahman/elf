@@ -16,14 +16,7 @@ spec:
     tty: true
 """
     }
-  }
-  environment {
-    //CREDS = credentials('phi_docker_creds')
-    //AWS_ACCESS_KEY_ID = "${CREDS_USR}"
-    //AWS_SECRET_ACCESS_KEY = "${CREDS_PSW}"
-    //OWNER = 'phi'
-    //PROJECT_NAME = 'jenkins'
-  }
+  } 
   stages {
       stage("connect") {
           steps {
